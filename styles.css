@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
+
+
 * {
   /*väripaletti*/
 
@@ -79,7 +81,7 @@ a {
 
   .some img {
     height: 32px;
-    width: auto; 
+    width: auto;
   }
 
 
@@ -346,11 +348,13 @@ a {
     padding: 2em;
   }
 
+@media only screen and (max-width: 990px) {
+  li {
+    font-size: 15px;
+  }
+}
 
-
-
-
-@media only screen and (min-width: 1250px) {
+@media only screen and (min-width: 650px) {
 
   p {
     line-height: 2em;
