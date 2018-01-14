@@ -1068,10 +1068,23 @@ footer {
   }
 }
 
-@media only screen and (min-device-width: 2000px){
-  .pallo {
-    width: 320px;
-    height: 320px;
+@media only screen and (min-device-width: 1440px){
+
+  .maingrid {
+      display: grid;
+      grid-template-columns: 2fr 5fr 5fr 2fr;
+      grid-gap: 2em;
   }
 
-{
+  .navgrid {
+    display: grid;
+    grid-template-columns: 2fr 200px 9fr 2fr;
+}
+
+.logo {
+  padding-left: 14%;
+}
+
+.topbar {
+  grid-template-columns: 1fr 5fr 10fr 3fr;
+}
