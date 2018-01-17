@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat');
 
-* {
-  /*väripaletti*/
-  --main-color: #399ACA;
-  --secondary-color: #9E315E
+html {
+  font: 10px/1.5 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 1.6rem;
+  color: #399aca;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,129 +22,89 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 24px;
-  color: var(--secondary-color);
+  font-size: 2.4rem;
+  color: #9e315e;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: var(--secondary-color);
-  font-size: 14px;
-}
-
-h4 {
-
-}
-
-body {
-  margin: 0;
-  padding: 0;
+  font-size: 1.4rem;
+  color: #9e315e;
 }
 
 a {
-  color: white;
   font-weight: bold;
+  color: inherit;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-}
-
-p {
-  margin-bottom: 1em;
-  color: var(--main-color);
-  line-height: 1.5em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
+  max-width: 100%;
+  height: auto;
 }
 
 /* INFO */
+.info, .verkostoidu {
+  padding: 1rem 5%;
+}
 .info {
   text-align: center;
-  padding: 0 5%;
+  font-size: 2rem;
+  color: #9e315e;
+}
+.verkostoidu h2 {
+  color: #9e315e;
 }
 
-#events {
-  background-color: var(--main-color);
-  padding: 10px 5%;
-  padding-bottom: 30px;
-}
-
-#events p {
-  color: white;
-}
-
-#events > h2 {
-  color: white;
+.events {
+  background-color: #399aca;
+  color: #fff;
+  padding: 1rem 5%;
 }
 
 .eventcard {
   text-align: center;
   color: white;
 }
-.eventcard > h2 {
-  color: white;
-}
 
 .btn {
-  box-sizing: border-box;
+  display: inline-block;
   text-decoration: none;
   font-weight: bold;
-  background-color: var(--secondary-color);
-  padding: 1rem;
+  background-color: #9e315e;
+  color: #fff;
+  padding: 1em;
   border-radius: 1em;
   font-family: montserrat;
 }
 
-#verkostoidu {
-  padding: 10px 5%;
-}
-
-#verkostoidu h2 {
-  color: var(--secondary-color);
-}
-
-#liity {
-  background-color: var(--main-color);
-  padding: 10px 5%;
-  padding-bottom: 30px;
+.liity {
+  background-color: #399aca;
+  padding: 1rem 5%;
+  padding-bottom: 3rem;
   color: white;
   text-align: center;
 }
 
-#liity p {
-  color: white;
+.moreinfo {
+  padding: 1rem 5%;
 }
 
-#moreinfo {
-  padding: 10px 5%;
-}
-
-#moreinfo > p > a {
-  color: var(--main-color);
-}
-
-#yht {
-  background-color: var(--main-color);
-  padding: 10px 5%;
-  padding-bottom: 30px;
+.yht {
+  background-color: #399aca;
+  padding: 1rem 5%;
+  padding-bottom: 3rem;
   color: white;
   text-align: center;
 }
-#yht > .somef > a > img{
-  width: 30px;
+.yht ul {
+  list-style: none;
+  padding: 0;
+}
+.yht > .somef > a > img {
+  width: 3rem;
   height: auto;
-  padding: 10px;
-}
-#yht > h2 {
-  color: white;
+  margin: 1rem;
 }
