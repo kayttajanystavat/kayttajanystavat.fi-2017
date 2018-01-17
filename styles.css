@@ -2,25 +2,26 @@
 
 * {
   /*väripaletti*/
-
   --main-color: #399ACA;
   --secondary-color: #9E315E
 }
 
-p {
+body {
   font-family: 'Lato', sans-serif;
-  line-height: 1.5em;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
   font-size: 24px;
+  color: var(--secondary-color);
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: var(--secondary-color);
   font-size: 20px;
 }
 
@@ -31,7 +32,6 @@ h3 {
 }
 
 h4 {
-font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -50,15 +50,21 @@ img {
     height: auto;
 }
 
+p {
+  margin-bottom: 1em;
+  color: var(--main-color);
+  line-height: 1.5em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
 
 /* INFO */
-
-
-
 .info {
   text-align: center;
   padding: 0 5%;
-
 }
 
 #events {
@@ -67,7 +73,11 @@ img {
   padding-bottom: 30px;
 }
 
-#events > h1 {
+#events p {
+  color: white;
+}
+
+#events > h2 {
   color: white;
 }
 
@@ -90,8 +100,11 @@ img {
 }
 
 #verkostoidu {
-  color: var(--main-color);
   padding: 10px 5%;
+}
+
+#verkostoidu h2 {
+  color: var(--secondary-color);
 }
 
 #liity {
@@ -102,8 +115,11 @@ img {
   text-align: center;
 }
 
+#liity p {
+  color: white;
+}
+
 #moreinfo {
-  color: var(--main-color);
   padding: 10px 5%;
 }
 
@@ -118,15 +134,11 @@ img {
   color: white;
   text-align: center;
 }
-
-
-
 #yht > .somef > a > img{
   width: 30px;
   height: auto;
   padding: 10px;
 }
-
 #yht > h2 {
-  color: white; 
+  color: white;
 }
