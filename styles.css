@@ -108,3 +108,33 @@ img {
   height: auto;
   margin: 1rem;
 }
+
+/* Tabletti / Työpöytä layout */
+
+
+@media only screen and (min-width: 768px) {
+
+  .wrappertop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px; 
+  }
+
+  .wrapperbotm {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+
+  .events, .liity {
+    width: 50%;
+  }
+
+  .verkostoidu, .moreinfo {
+    width: 50%;
+  }
+
+
+}
