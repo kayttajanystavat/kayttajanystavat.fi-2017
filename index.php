@@ -2,9 +2,9 @@
 <html lang="fi">
 <head>
   <meta charset="utf-8">
-  <title>Käyttäjän Ystävät Ry</title>
+  <title>Käyttäjän ystävät ry</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Käytettävyysalan poikkitieteellinen opiskelijajärjestö">
+  <meta name="description" content="Käyttäjän ystävät ry on käytettävyysopiskelijoiden ja muiden alasta kiinnostuneiden poikkitieteellinen yhdistys.">
   <link rel="icon" href="pics/kay_logo_32x32.png" type="image/favicon">
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -39,7 +39,7 @@
   <main class="main-content">
     <div class="wrappertop">
       <section class="info">
-        <p>Käyttäjälähtöisestä suunnittelusta kiinnostuneiden  opiskelijoiden yhdistys ja kohtauspaikka.</p>
+        <p>Käyttäjälähtöisestä suunnittelusta kiinnostuneiden opiskelijoiden yhdistys ja kohtauspaikka.</p>
         <p>Innostumme erityisesti palvelumuotoilusta, käyttökokemuksista ja käyttäjätutkimuksista.</p>
       </section>
 
@@ -59,18 +59,16 @@
     </div>
     <div class="wrapperbotm">
       <section class="join" id="join">
-        <h2>Liity Jäseneksi</h2>
+        <h2>Liity jäseneksi</h2>
         <p>Tule tapaamaan mielenkiintoisia ihmisiä ja verkostoidu kanssamme</p>
-        <p><a href="/liity" class="btn">Liity Jäseneksi</a></p>
+        <p><a href="/liity" class="btn">Liity jäseneksi</a></p>
       </section>
 
       <section class="moreinfo" id="moreinfo">
-        <p>Käyttäjän ystävät ry on vuonna 2001 perustettu käyttäjälähtöisen suunnittelun opiskelijoiden poikkitieteellinen yhdistys.
-
-        Yhdistys kokoaa yhteen samanhenkisiä käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta
-        Suurin osa jäsenistämme on Helsingin yliopiston, Aalto yliopiston tai Metropolia ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.
-
-        Liittymällä  <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a> saat ajankohtaista tietoa yhdistyksen toiminnasta.</p>
+        <p>Käyttäjän ystävät ry on vuonna 2001 perustettu käyttäjälähtöisen suunnittelun opiskelijoiden poikkitieteellinen yhdistys.</p>
+        <p>Yhdistys kokoaa yhteen samanhenkisiä käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta kiinnostuneita ihmisiä.</p>
+        <p>Suurin osa jäsenistämme on Helsingin yliopiston, Aalto-yliopiston tai Metropolia Ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.</p>
+        <p>Liittymällä jäseneksemme saat helposti tiedon KäYn tulevista tapahtumista ja mm. alan työtarjouksista! Liitythän myös <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a>, josta saat ajankohtaista tietoa yhdistyksen toiminnasta.</p>
       </section>
     </div>
   </main>
@@ -79,7 +77,7 @@
     <ul>
       <li>hallitus@kayttajanystavat.fi</li>
       <li>PL 69, 02151 Espoo</li>
-      <li>Y- tunnus 1741700-5 (YTJ)</li>
+      <li>Y-tunnus 1741700-5 (YTJ)</li>
     </ul>
     <div class="somef">
       <a href="https://www.facebook.com/groups/kayttajanystavat/"><img class="footerimg" src="pics/facebook.png" alt="Facebook"></a>
