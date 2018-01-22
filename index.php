@@ -70,7 +70,7 @@
         Yhdistys kokoaa yhteen samanhenkisiä käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta
         Suurin osa jäsenistämme on Helsingin yliopiston, Aalto yliopiston tai Metropolia ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.
 
-        Liittymällä  <a href=”https://www.facebook.com/groups/kayttajanystavat”>Facebook-ryhmäämme</a> saat ajankohtaista tietoa yhdistyksen toiminnasta.</p>
+        Liittymällä  <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a> saat ajankohtaista tietoa yhdistyksen toiminnasta.</p>
       </section>
     </div>
   </main>
