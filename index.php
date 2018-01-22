@@ -43,13 +43,7 @@
       </section>
 
       <section class="events" id="events">
-        <h2>Ilmoittaudu seuraavaan tapahtumaan</h2>
-        <div class="eventcard">
-          <h2>Käy x Excun nimi</h2>
-          <p>lisätietoja lorem ipsum</p>
-          <p>00.00.2018</p>
-          <p><a href="#" class="btn">Ilmoitaudu</a></p>
-        </div>
+        <?php include('./events.php'); ?>
       </section>
 
       <section class="verkostoidu" id="verkostoidu">
