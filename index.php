@@ -61,7 +61,7 @@
       <section class="join" id="join">
         <h2>Liity Jäseneksi</h2>
         <p>Tule tapaamaan mielenkiintoisia ihmisiä ja verkostoidu kanssamme</p>
-        <p><a href="#" class="btn">Liity Jäseneksi</a></p>
+        <p><a href="/liity" class="btn">Liity Jäseneksi</a></p>
       </section>
 
       <section class="moreinfo" id="moreinfo">
