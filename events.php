@@ -1,6 +1,6 @@
 <?php
 
-$token = trim(file_get_contents('../eventbrite.token'));
+$token = trim(file_get_contents('./eventbrite.token'));
 $url = 'https://www.eventbriteapi.com/v3/users/me/owned_events/?token=' . $token;
 $url .= '&order_by=start_desc';
 $json = file_get_contents($url);
