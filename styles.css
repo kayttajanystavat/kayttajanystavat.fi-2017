@@ -39,8 +39,16 @@ ul {
   list-style: none;
 }
 .topbar {
-  height: 200px;
+  height: 75px;
   background-color: #399aca;
+}
+
+.topbar > img {
+  width: 75px;
+  height: auto;
+  position: relative;
+  top: -45px;
+  left: -100px;
 }
 .menuBtn {
   display: block;
@@ -200,5 +208,22 @@ ul {
   }
   .verkostoidu, .moreinfo {
     width: 50%;
+  }
+
+  main {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .topbar {
+    height: 120px;
+  }
+
+  .topbar > img {
+    width: 190px;
+    height: auto;
+    position: relative;
+    top: 3px;
+    left: 4px;
   }
 }

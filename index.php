@@ -17,6 +17,7 @@
   <header class="main-header">
     <div class="topbar">
       <button class="menuBtn" aria-controls="mobile-nav"><i class="material-icons" onclick="openNav()">menu</i></button>
+      <img src="pics/kay_logo.png" alt="kaylogo">
     </div>
     <nav class="main-nav">
       <ul>
@@ -48,7 +49,12 @@
 
       <section class="verkostoidu" id="verkostoidu">
         <h2>Verkostoidu tapahtumissamme</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro praesentium fugiat, iure, eaque facere obcaecati qui, non animi, nam perspiciatis debitis. Earum, saepe iure quibusdam. Ab, libero, sint debitis magnam ex voluptas rerum pariatur vitae. Magnam qui, reiciendis explicabo tempore esse. Ab, assumenda rerum officiis eaque velit odio quis illo nobis, fugiat eos natus quam sint delectus beatae aut esse nihil harum nam neque libero modi. Quod quasi ducimus molestiae deleniti dicta harum, sunt minus ipsam. Necessitatibus aperiam sunt blanditiis!</p>
+        <p>Käyttäjän ystävät järjestää erilaisia tapahtumia ja workshoppeja jäsenilleen. Suosituimpia ovat ekskursiot  eli yritysvierailut alan yrityksiin.
+          Vierailuilla tutustutaan muun muassa palvelumuotoiluun, käyttöliittymäsuunnitteluun ja käyttäjätutkimuksiin ja ne ovat oiva tilaisuus kuulla alasta sen ammattilaisilta  ja verkostoitua muiden kiinnostuneiden kanssa.
+          Yritysvierailujen ja workshoppien lisäksi järjestämme myös piknikkejä ja rentoja afterwork-tilaisuuksia.
+          Suurin osa tapahtumista on maksuttomia jäsenillemme.
+          Liity jäseneksi tästä
+        </p>
       </section>
     </div>
     <div class="wrapperbotm">
