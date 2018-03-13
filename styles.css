@@ -9,15 +9,18 @@ body {
   margin: 0;
   padding: 0;
   font-size: 1.6rem;
-  color: #399aca;
+  color: black;
 }
+
+
+
 h1, h2, h3, h4, h5 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 h1 {
   font-size: 2.4rem;
-  color: #9e315e;
+  color: #399aca;
 }
 h2 {
   font-size: 2rem;
@@ -25,11 +28,11 @@ h2 {
 
 h3 {
   font-size: 1.4rem;
-  color: #9e315e;
+  color: #333
 }
 a {
   font-weight: bold;
-  color: inherit;
+  color: #399aca;
 }
 img {
   max-width: 100%;
@@ -127,10 +130,10 @@ ul {
 .info {
   text-align: center;
   font-size: 2rem;
-  color: #9e315e;
+  color: #333
 }
 .verkostoidu h2 {
-  color: #9e315e;
+  color: #333
 }
 
 .events {
@@ -138,6 +141,15 @@ ul {
   color: #fff;
   padding: 1rem 5%;
 }
+
+.events {
+  color: white;
+}
+
+.join > p {
+  color: white; 
+}
+
 .eventcard {
   text-align: center;
   color: white;

@@ -49,11 +49,9 @@
 
       <section class="verkostoidu" id="verkostoidu">
         <h2>Verkostoidu tapahtumissamme</h2>
-        <p>Käyttäjän ystävät järjestää erilaisia tapahtumia ja workshoppeja jäsenilleen. Suosituimpia ovat ekskursiot  eli yritysvierailut alan yrityksiin.
-          Vierailuilla tutustutaan muun muassa palvelumuotoiluun, käyttöliittymäsuunnitteluun ja käyttäjätutkimuksiin ja ne ovat oiva tilaisuus kuulla alasta sen ammattilaisilta  ja verkostoitua muiden kiinnostuneiden kanssa.
-          Yritysvierailujen ja workshoppien lisäksi järjestämme myös piknikkejä ja rentoja afterwork-tilaisuuksia.
-          Suurin osa tapahtumista on maksuttomia jäsenillemme.
-          Liity jäseneksi tästä
+        <p>Käyttäjän ystävät järjestää erilaisia avoimia tapahtumia alan opiskelijoille ja nuorille ammattilaisille.  Suosituimpia ovat ekskursiot eli yritysvierailut alan yrityksiin. 
+        Vierailuilla tutustutaan palvelumuotoiluun, käyttöliittymäsuunnitteluun ja käyttäjätutkimuksiin ja ne ovat loistava tilaisuus kuulla alasta sen ammattilaisilta ja verkostoitua.
+
         </p>
       </section>
     </div>
@@ -65,10 +63,11 @@
       </section>
 
       <section class="moreinfo" id="moreinfo">
-        <p>Käyttäjän ystävät ry on vuonna 2001 perustettu käyttäjälähtöisen suunnittelun opiskelijoiden poikkitieteellinen yhdistys.</p>
-        <p>Yhdistys kokoaa yhteen samanhenkisiä käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta kiinnostuneita ihmisiä.</p>
-        <p>Suurin osa jäsenistämme on Helsingin yliopiston, Aalto-yliopiston tai Metropolia Ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.</p>
-        <p>Liittymällä jäseneksemme saat helposti tiedon KäYn tulevista tapahtumista ja mm. alan työtarjouksista! Liitythän myös <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a>, josta saat ajankohtaista tietoa yhdistyksen toiminnasta.</p>
+      Käyttäjän ystävät ry on  perustettu  vuonna 2001 Käyttettävyyskoulun opiskelijoiden opiskelijayhdistykseksi.
+      Yhdistys kokoaa yhteen  käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta kiinnostuneita ihmisiä.
+      Suurin osa jäsenistämme on Helsingin yliopiston, Aalto-yliopiston tai Metropolia Ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.
+      Liittymällä jäseneksemme saat helposti tiedon KäYn tulevista tapahtumista ja mm. alan työtarjouksista! Liitythän myös
+      <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a></p>
       </section>
     </div>
   </main>
