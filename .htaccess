@@ -6,7 +6,7 @@ RewriteRule ^liity/?$ https://docs.google.com/forms/d/e/1FAIpQLSen-C_S2BSp5UflfX
 RewriteRule ^rekisteriseloste/?$ https://docs.google.com/document/d/e/2PACX-1vT5f8e4J-AVPXAe3Pu7Ilu4onNG04G9XogyDyTn21uwxT3i9bJX0dqQ2i4JNpxWYx42ST5cziZk9WXA/pub [R=302,NC,L]
 
 # Vanhojen sivujen uudelleenohjaukset
-RewriteRule ^(etusivu|yhdistys|yhdistys/arkisto|tapahtumat|yhteys)/?$ https://kayttajanystavat.fi/ [R=301,NC]
+RewriteRule ^(etusivu|yhdistys|tapahtumat|yhteys)/?$ https://kayttajanystavat.fi/ [R=301,NC]
 RewriteRule ^yhdistys/arkisto - [G,L]
 
 # Eventbrite-token piiloon
