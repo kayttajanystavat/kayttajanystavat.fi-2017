@@ -5,6 +5,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -12,35 +13,34 @@ body {
   color: black;
 }
 
-
-
 h1, h2, h3, h4, h5 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
   font-size: 2.4rem;
   color: #399aca;
 }
+
 h2 {
   font-size: 2rem;
 }
 
 h3 {
   font-size: 1.4rem;
-  color: #333
 }
+
 a {
   font-weight: bold;
   color: #399aca;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
-ul {
-  list-style: none;
-}
+
 .topbar {
   height: 75px;
   background-color: #399aca;
@@ -79,6 +79,7 @@ ul {
   margin: 0;
   padding: 0;
   font-size: 1.5em;
+  list-style: none;
 }
 .main-nav ul li {
   padding: 20px 30px;
@@ -124,35 +125,23 @@ ul {
 
 
 /* INFO */
-.info, .verkostoidu {
+.info, .verkostoidu, .events, .moreinfo, .contact {
   padding: 1rem 5%;
 }
+
 .info {
   text-align: center;
   font-size: 2rem;
-  color: #333
-}
-.verkostoidu h2 {
   color: #333
 }
 
 .events {
   background-color: #399aca;
   color: #fff;
-  padding: 1rem 5%;
-}
-
-.events {
-  color: white;
-}
-
-.join > p {
-  color: white; 
 }
 
 .eventcard {
   text-align: center;
-  color: white;
 }
 
 .btn {
@@ -163,7 +152,7 @@ ul {
   color: #fff;
   padding: 1em;
   border-radius: 1em;
-  font-family: montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .join {
@@ -174,13 +163,8 @@ ul {
   text-align: center;
 }
 
-.moreinfo {
-  padding: 1rem 5%;
-}
-
 .contact {
   background-color: #399aca;
-  padding: 1rem 5%;
   padding-bottom: 3rem;
   color: white;
   text-align: center;
@@ -188,6 +172,9 @@ ul {
 .contact ul {
   list-style: none;
   padding: 0;
+}
+.contact a {
+  color: inherit;
 }
 .contact > .somef > a > img {
   width: 3rem;

@@ -9,9 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <!--[if IE]>
-  	<link rel="stylesheet" type="text/css" href="all-ie-only.css" />
-  <![endif]-->
 </head>
 <body>
   <header class="main-header">
@@ -49,10 +46,8 @@
 
       <section class="verkostoidu" id="verkostoidu">
         <h2>Verkostoidu tapahtumissamme</h2>
-        <p>Käyttäjän ystävät järjestää erilaisia avoimia tapahtumia alan opiskelijoille ja nuorille ammattilaisille.  Suosituimpia ovat ekskursiot eli yritysvierailut alan yrityksiin. 
-        Vierailuilla tutustutaan palvelumuotoiluun, käyttöliittymäsuunnitteluun ja käyttäjätutkimuksiin ja ne ovat loistava tilaisuus kuulla alasta sen ammattilaisilta ja verkostoitua.
-
-        </p>
+        <p>Käyttäjän ystävät järjestää erilaisia avoimia tapahtumia alan opiskelijoille ja nuorille ammattilaisille.  Suosituimpia ovat ekskursiot eli yritysvierailut alan yrityksiin.
+        Vierailuilla tutustutaan palvelumuotoiluun, käyttöliittymäsuunnitteluun ja käyttäjätutkimuksiin ja ne ovat loistava tilaisuus kuulla alasta sen ammattilaisilta ja verkostoitua.</p>
       </section>
     </div>
     <div class="wrapperbotm">
@@ -63,20 +58,21 @@
       </section>
 
       <section class="moreinfo" id="moreinfo">
-      Käyttäjän ystävät ry on  perustettu  vuonna 2001 Käyttettävyyskoulun opiskelijoiden opiskelijayhdistykseksi.
-      Yhdistys kokoaa yhteen  käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta kiinnostuneita ihmisiä.
-      Suurin osa jäsenistämme on Helsingin yliopiston, Aalto-yliopiston tai Metropolia Ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.
-      Liittymällä jäseneksemme saat helposti tiedon KäYn tulevista tapahtumista ja mm. alan työtarjouksista! Liitythän myös
-      <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a></p>
+        <p>Käyttäjän ystävät ry on perustettu vuonna 2001 Käyttettävyyskoulun opiskelijoiden opiskelijayhdistykseksi.</p>
+        <p>Yhdistys kokoaa yhteen käytettävyydestä, UI- ja UX-suunnittelusta sekä palvelumuotoilusta kiinnostuneita ihmisiä.</p>
+        <p>Suurin osa jäsenistämme on Helsingin yliopiston, Aalto-yliopiston tai Metropolia Ammattikorkeakoulun opiskelijoita tai jo valmistuneita, mutta kaikki alasta kiinnostuneet ovat tervetulleita jäseneksemme.</p>
+        <p>Liittymällä jäseneksemme saat helposti tiedon KäYn tulevista tapahtumista ja mm. alan työtarjouksista! Liitythän myös
+        <a href="https://www.facebook.com/groups/kayttajanystavat">Facebook-ryhmäämme</a>.</p>
       </section>
     </div>
   </main>
   <footer class="contact" id="contact">
     <h2>Ota yhteyttä</h2>
     <ul>
-      <li>hallitus@kayttajanystavat.fi</li>
-      <li>PL 69, 02151 Espoo</li>
-      <li>Y-tunnus 1741700-5 (YTJ)</li>
+      <li><a href="mailto:&#104;&#97;&#108;&#108;&#105;&#116;&#117;&#115;&#64;&#107;&#97;&#121;&#116;&#116;&#97;&#106;&#97;&#110;&#121;&#115;&#116;&#97;&#118;&#97;&#116;&#46;&#102;&#105;">&#104;&#97;&#108;&#108;&#105;&#116;&#117;&#115;&#64;&#107;&#97;&#121;&#116;&#116;&#97;&#106;&#97;&#110;&#121;&#115;&#116;&#97;&#118;&#97;&#116;&#46;&#102;&#105;</a></li>
+      <li>c/o Aalto-yliopiston ylioppilaskunta, PL 69, 02151 Espoo</li>
+      <li>Yhdistysnumero: 183.750</li>
+      <li>Y-tunnus: 1741700-5</li>
     </ul>
     <div class="somef">
       <a href="https://www.facebook.com/groups/kayttajanystavat/"><img class="footerimg" src="pics/facebook.png" alt="Facebook"></a>
