@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Ubuntu');
+
 html {
-  font: 10px/1.5 'Lato', sans-serif;
+  font: 10px/1.5 'IBM Plex Sans', sans-serif;
   box-sizing: border-box;
 }
 *, *::before, *::after {
@@ -15,7 +17,11 @@ body {
 
 h1, h2, h3, h4, h5 {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul > li > a {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
@@ -50,8 +56,7 @@ img {
   width: 75px;
   height: auto;
   position: relative;
-  top: -45px;
-  left: -100px;
+  left: -200px;
 }
 .menuBtn {
   display: block;
@@ -223,6 +228,6 @@ img {
     height: auto;
     position: relative;
     top: 3px;
-    left: 4px;
+    left: 150px;
   }
 }

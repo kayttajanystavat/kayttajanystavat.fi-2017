@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <title>Käyttäjän ystävät ry</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Käyttäjän ystävät ry on käytettävyysopiskelijoiden ja muiden alasta kiinnostuneiden poikkitieteellinen yhdistys.">
+  <link rel="icon" href="pics/kay_logo_32x32.png" type="image/favicon">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="topbar">
+      <button class="menuBtn" aria-controls="mobile-nav"><i class="material-icons" onclick="openNav()">menu</i></button>
+      <img src="pics/kay-outlines.png" alt="kaylogo">
+    </div>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.php">Tapahtumat</a></li>
+        <li><a href="index.php">Liity jäseneksi</a></li>
+        <li><a href="index.php">Yhteystiedot</a></li>
+        <li><a role="menuitem" href="hallitus.php">Hallitus</a></li>
+      </ul>
+    </nav>
+    <nav class="mobile-nav" id="mobile-nav">
+      <a role="menuitem" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a role="menuitem" href="index.php">Tapahtumat</a>
+      <a role="menuitem" href="index.php">Liity jäseneksi</a>
+      <a role="menuitem" href="index.php">Yhteystiedot</a>
+      <a role="menuitem" href="hallitus.php">Hallitus</a>
+    </nav>
+    <div role="banner">
+      <img class="topphoto" id="topphoto" src="pics/topphoto.jpg" alt="Käyttäjän ystävät">
+    </div>
+  </header>
+  <main class="main-content">
+    <div class="history">
+      <p>Hallitus 2018<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Akseli Nurmio</strong><br />
+      Sihteeri <strong>Fanny Holmström</strong><br />
+      Rahastonhoitaja <strong>Arttu Laitala</strong><br />
+      Jäsen <strong>Katriina Kallioinen</strong><br />
+      Jäsen <strong>Iida Kiviranta</strong><br />
+      Jäsen <strong>Ukko Kamula</strong><br />
+      Jäsen <strong>Timo Lehtonen</strong><br />
+      </div></p>
+
+      <p>Hallitus 2017<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Susanna Ronkainen</strong><br />
+      Sihteeri <strong>Katriina Kallioinen</strong><br />
+      Rahastonhoitaja <strong>Akseli Nurmio</strong><br />
+      Jäsen <strong>Jesse Ukkonen</strong><br />
+      Jäsen <strong>Emil Virkki</strong><br />
+      Jäsen <strong>Nina Lukin</strong><br />
+      </div></p>
+
+      <p>Hallitus 2016<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Valtteri Willström</strong><br />
+      <strong>Emil Virkki</strong><br />
+      <strong>Jesse Ukkonen</strong><br />
+      <strong>Perttu Lähteenlahti</strong><br />
+      <strong>Aarne Leinonen</strong><br />
+      <strong>Heidi Tuomi-Nikula</strong><br />
+      </div></p>
+
+      <p>Hallitus 2015<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Aarne Leinonen</strong><br />
+      Sihteeri <strong>Emma Kataja</strong><br />
+      Rahastonhoitaja <strong>Perttu Lähteenlahti</strong><br />
+      Jäsen <strong>Juho Kilpikoski</strong><br />
+      Jäsen <strong>Valeria Verkhovskaia</strong><br />
+      Jäsen <strong>Emil Virkki</strong><br />
+      Jäsen <strong>Tommi Simell</strong><br />
+      </div></p>
+
+      <p>Hallitus 2014<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Eeva Erkko</strong><br />
+      Rahastonhoitaja <strong>Hannu Arvila</strong><br />
+      Sihteeri <strong>Tuija Velinen</strong><br />
+      Jäsen <strong>Johannes Kupiainen</strong><br />
+      Jäsen <strong>Annika Berg</strong><br />
+      Jäsen <strong>Emil Virkki</strong><br />
+      Jäsen <strong>Tommi Simell</strong><br />
+      </div></p>
+
+      <p>Hallitus 2013<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Jani Mäkelä</strong><br />
+      Rahastonhoitaja <strong>Anna Kantosalo</strong><br />
+      Sihteeri <strong>Teijo Kelander</strong><br />
+      Jäsen <strong>Dmitry Poletaev</strong><br />
+      Jäsen <strong>Timo Karhu</strong><br />
+      Jäsen <strong>Tommi Saarikangas</strong><br />
+      Jäsen <strong>Tujia Velinen</strong><br />
+      </div></p>
+
+      <p>Hallitus 2012<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Timo Karhu</strong><br />
+      Rahastonhoitaja <strong>Joanna Bergström-Lehtovirta</strong><br />
+      Sihteeri <strong>Jani Mäkelä</strong><br />
+      Jäsen <strong>Dmitry Poletaev</strong><br />
+      Jäsen <strong>Riku Hanhinen</strong><br />
+      Jäsen <strong>Tiia Suomalainen</strong><br />
+      Jäsen <strong>Tuomas Husu</strong><br />
+      </div></p>
+
+      <p>Hallitus 2011<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Tuomas Husu</strong><br />
+      Rahastonhoitaja <strong>Joanna Bergström-Lehtovirta</strong><br />
+      Sihteeri <strong>Riku Hanhinen</strong><br />
+      Jäsen <strong>Anna Törrönen</strong><br />
+      Jäsen <strong>Jussi Rämänen</strong><br />
+      Jäsen <strong>Tiia Suomalainen</strong><br />
+      </div></p>
+
+      <p>Hallitus 2010<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Anna Törrönen</strong><br />
+      Rahastonhoitaja <strong>Tiia Suomalainen</strong><br />
+      Sihteeri <strong>Jussi Rämänen</strong><br />
+      Jäsen <strong>Saija Simola</strong><br />
+      Jäsen <strong>Sara Ikävalko</strong>
+      </div></p>
+
+      <p>Hallitus 2009<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Kirsi Tolvanen</strong><br />
+      Rahastonhoitaja <strong>Matias Pietilä</strong><br />
+      Sihteeri <strong>Satu Raudasoja</strong><br />
+      Jäsen <strong>Jari Keränen</strong>
+      </div></p>
+
+      <p>Hallitus 2008<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Matias Pietilä</strong><br />
+      Rahastonhoitaja <strong>Esko Lehtonen</strong><br />
+      Sihteeri <strong>Janne Käki</strong>
+      </div></p>
+
+      <p>Hallitus 2007<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Tuukka Muroke</strong><br />
+      Rahastonhoitaja <strong>Antti Lustila</strong><br />
+      Sihteeri <strong>Esko Lehtonen</strong><br />
+      Jäsen <strong>Matias Pietilä</strong><br />
+      Jäsen <strong>Juha Nieminen</strong>
+      </div></p>
+
+      <p>Hallitus 2006<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Tuukka Muroke</strong><br />
+      Varapuheenjohtaja <strong>Paula Löppönen</strong><br />
+      Sihteeri <strong>Piritta Winqvist</strong><br />
+      Rahastonhoitaja <strong>Antti Lustila</strong><br />
+      Jäsen <strong>Eerika Korhonen</strong>
+      </div></p>
+
+      <p>Hallitus 2005<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Juha Nieminen</strong><br />
+      Sihteeri <strong>Antti Lustila</strong><br />
+      Rahastonhoitaja <strong>Heini Korpilahti</strong><br />
+      Jäsen <strong>Maarit Kivioja</strong>
+      </div></p>
+
+      <p>Hallitus 2004<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Elina Jormanainen</strong><br />
+      Rahastonhoitaja <strong>Heini Korpilahti</strong><br />
+      Sihteeri <strong>Roope Rainisto</strong><br />
+      Jäsen <strong>Maarit Kivioja</strong><br />
+      Jäsen <strong>Juha Nieminen</strong>
+      </div></p>
+
+      <p>Hallitus 2003<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Reetta Korhonen</strong><br />
+      Rahastonhoitaja <strong>Elina Jormanainen</strong><br />
+      Sihteeri <strong>Mikko Salminen</strong><br />
+      Jäsen <strong>Minna Mylius</strong><br />
+      Jäsen <strong>Kristo Kuusela</strong>
+      </div></p>
+
+      <p>Hallitus 2002<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Juha Huuhtanen</strong><br />
+      Rahastonhoitaja <strong>Matti Helin</strong><br />
+      Sihteeri <strong>Antti Salovaara</strong><br />
+      PR- ja yrityssuhdevastaava <strong>Petteri Mäki</strong>
+      </div></p>
+
+      <p>Hallitus 2001<br />
+      <div class="sisennys">
+      Puheenjohtaja <strong>Juha Huuhtanen</strong><br />
+      Rahastonhoitaja <strong>Riitta Peltonen</strong><br />
+      Sihteeri <strong>Matti Helin</strong><br />
+      Tiedottaja <strong>Tero Liikka</strong><br />
+      PR- ja yrityssuhdevastaava <strong>Petteri Mäki</strong><br />
+      Opintovastaava <strong>Antti Oulasvirta</strong>
+      </div></p>
+    </div>
+  </main>
+  <footer class="contact" id="contact">
+    <h2>Ota yhteyttä</h2>
+    <ul>
+      <li><a href="mailto:&#104;&#97;&#108;&#108;&#105;&#116;&#117;&#115;&#64;&#107;&#97;&#121;&#116;&#116;&#97;&#106;&#97;&#110;&#121;&#115;&#116;&#97;&#118;&#97;&#116;&#46;&#102;&#105;">&#104;&#97;&#108;&#108;&#105;&#116;&#117;&#115;&#64;&#107;&#97;&#121;&#116;&#116;&#97;&#106;&#97;&#110;&#121;&#115;&#116;&#97;&#118;&#97;&#116;&#46;&#102;&#105;</a></li>
+      <li>c/o Aalto-yliopiston ylioppilaskunta, PL 69, 02151 Espoo</li>
+      <li>Yhdistysnumero: 183.750</li>
+      <li>Y-tunnus: 1741700-5</li>
+    </ul>
+    <div class="somef">
+      <a href="https://www.facebook.com/groups/kayttajanystavat/"><img class="footerimg" src="pics/facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/kayttajanystava"><img class="footerimg" src="pics/twitter.png" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/groups/4095106/profile"><img class="footerimg" src="pics/linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </footer>
+  </div>
+  <script>
+  /* Open mobile navigation */
+  function openNav() {
+    document.querySelector(".mobile-nav").style.width = "250px";
+  }
+  /* Close mobile navigation */
+  function closeNav() {
+    document.querySelector(".mobile-nav").style.width = "0";
+  }
+  </script>
+</body>
+</html>

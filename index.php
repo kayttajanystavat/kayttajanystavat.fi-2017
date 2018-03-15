@@ -14,13 +14,14 @@
   <header class="main-header">
     <div class="topbar">
       <button class="menuBtn" aria-controls="mobile-nav"><i class="material-icons" onclick="openNav()">menu</i></button>
-      <img src="pics/kay_logo.png" alt="kaylogo">
+      <img class="logo" src="pics/kay-outlines.png" alt="kaylogo">
     </div>
     <nav class="main-nav">
       <ul>
         <li><a href="#events">Tapahtumat</a></li>
         <li><a href="#join">Liity jäseneksi</a></li>
         <li><a href="#contact">Yhteystiedot</a></li>
+        <li><a role="menuitem" href="hallitus.php">Hallitus</a></li>
       </ul>
     </nav>
     <nav class="mobile-nav" id="mobile-nav">
@@ -28,9 +29,10 @@
       <a role="menuitem" href="#events">Tapahtumat</a>
       <a role="menuitem" href="#join">Liity jäseneksi</a>
       <a role="menuitem" href="#contact">Yhteystiedot</a>
+      <a role="menuitem" href="hallitus.php">Hallitus</a>
     </nav>
     <div role="banner">
-      <img class="topphoto" id="topphoto" src="pics/topphoto.jpg" alt="Käyttäjän ystävät pöhisemässä">
+      <img class="topphoto" id="topphoto" src="pics/topphoto.jpg" alt="Käyttäjän ystävät">
     </div>
   </header>
   <main class="main-content">
