@@ -13,5 +13,8 @@ RewriteRule ^hallitus\.php$ https://kayttajanystavat.fi/hallitus/ [R=301]
 # Eventbrite-token piiloon
 RewriteRule eventbrite\.token - [F,NC,L]
 
+# Piilota events.php
+RewriteRule ^events\.php$ - [R=404]
+
 # Listausesto
 IndexIgnore *
