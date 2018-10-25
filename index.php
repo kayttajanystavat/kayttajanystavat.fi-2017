@@ -21,7 +21,7 @@
         <li><a href="#events">Tapahtumat</a></li>
         <li><a href="#join">Liity jäseneksi</a></li>
         <li><a href="#contact">Yhteystiedot</a></li>
-        <li><a role="menuitem" href="hallitus.php">Hallitus</a></li>
+        <li><a role="menuitem" href="/hallitus/">Hallitus</a></li>
       </ul>
     </nav>
     <nav class="mobile-nav" id="mobile-nav">
@@ -29,7 +29,7 @@
       <a role="menuitem" href="#events">Tapahtumat</a>
       <a role="menuitem" href="#join">Liity jäseneksi</a>
       <a role="menuitem" href="#contact">Yhteystiedot</a>
-      <a role="menuitem" href="hallitus.php">Hallitus</a>
+      <a role="menuitem" href="/hallitus/">Hallitus</a>
     </nav>
     <div role="banner">
       <img class="topphoto" id="topphoto" src="pics/topphoto.jpg" alt="Käyttäjän ystävät">

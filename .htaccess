@@ -8,6 +8,7 @@ RewriteRule ^rekisteriseloste/?$ https://docs.google.com/document/d/e/2PACX-1vT5
 # Vanhojen sivujen uudelleenohjaukset
 RewriteRule ^(etusivu|yhdistys|tapahtumat|yhteys)/?$ https://kayttajanystavat.fi/ [R=301,NC]
 RewriteRule ^yhdistys/arkisto - [G,L]
+RewriteRule ^hallitus\.php$ https://kayttajanystavat.fi/hallitus/ [R=301]
 
 # Eventbrite-token piiloon
 RewriteRule eventbrite\.token - [F,NC,L]
